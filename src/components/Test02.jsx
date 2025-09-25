@@ -12,7 +12,7 @@ const Test02 = () => {
 
     return (
         <div className="board-container">
-            <h1 className="board-title">게시판 (Challenge 1: 로딩)</h1>
+            <h1 className="board-title">게시판</h1>
             <div className="post-list">
                 {posts.map(post => (
                     <div key={post.id} className="post-item">
